@@ -14,8 +14,8 @@ from starlette.routing import Mount, Route
 
 from .api import CivicAPIClient
 
-API_VERSION = "0.1.10"
-BUILD_TIMESTAMP = "2025-04-15"
+API_VERSION = "0.1.17"
+BUILD_TIMESTAMP = "2025-08-12"
 
 mcp = FastMCP(
     name="nexonco",
